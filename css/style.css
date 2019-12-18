@@ -26,7 +26,7 @@ html {
 }
 .menu-nav{
 	display: inline-flex;
-  margin: 0 auto
+	padding: 0px;
 }
 .menu-nav li {
 	list-style: none;
@@ -35,12 +35,11 @@ html {
 	color: #ffffff;
 }
 .our-vision-mission-banner {
-  background-image: url(image-path('about-us.jpg'));
+  background-image: url("../images/about-us.jpg");
   height: auto;
   width: 100%;
-  position: relative;
   background-size: 100%;
-  border-radius: 5px;
+  padding: 0px;
 }
 .our-vision-mission-banner :after {
   content:"";
@@ -61,14 +60,24 @@ html {
 }
 .our-vision-mission-content {
   padding: 6% 5%;
+  text-align: center;
 }
 .our-vision-mission-content p {
   display: block;
   color: #ccc;
   line-height: 1.7;
+  margin: 2% 0% 0%;
+}
+.our-vision-mission-content span {
+  color: #ccc;
+  line-height: 1.7;
+  border-style: double;
+  padding: 3px 10px;
 }
 
+
 /*gallary*/
+
 
 .img-h800 {
   height: 800px;

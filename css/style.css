@@ -17,6 +17,7 @@ html {
 }
 .menu-nav li {
 	list-style: none;
+	margin: 0% 8%;
 }
 .menu-nav li a {
 	color: #ffffff;
@@ -61,4 +62,14 @@ html {
   border-style: double;
   padding: 3px 10px;
 }
-
+.carousel-inner>.item>a>img {
+    line-height: 1;
+    max-height: 600px;
+    width: 100%;
+  }
+@media(max-width: 570px) {
+	.menu-nav li {
+		margin: 0% 2%;
+		font-size: 11px;
+	}
+}

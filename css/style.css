@@ -6,6 +6,19 @@ html {
 .mtb-5 {
 	margin: 5% 0%;
 }
+.p-0{
+  padding: 0;
+}
+.p-t-15{
+  padding-top: 15px
+}
+.p-b-15{
+  padding-bottom: 15px; 
+}
+
+.p-r-0{
+  padding-right: 0;
+}
 .carousal-wrapper {
 	height: 500px;
 	position: absolute;
@@ -72,4 +85,18 @@ html {
 		margin: 0% 2%;
 		font-size: 11px;
 	}
+}
+
+
+/*gallary*/
+
+
+.img-h800 {
+  height: 800px;
+  width: 100%;
+}
+
+.img-h200{
+  height: 200px;
+  width: 100%;
 }

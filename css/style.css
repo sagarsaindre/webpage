@@ -130,7 +130,14 @@ html {
 }
 
 
-
+.bg-gray{
+  background-color: #d2d3d5; 
+}
+.divider{
+  height: 200px;
+  padding: 0;
+  margin: 0;
+}
 /*gallary*/
 .bg-purple-1{
   background-color: #703c8e;

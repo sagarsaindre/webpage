@@ -19,6 +19,9 @@ html {
 .p-r-0{
   padding-right: 0;
 }
+.m-t-15{
+  margin-top: 15px
+}
 .carousal-wrapper {
 	height: 500px;
 	position: absolute;
@@ -105,23 +108,133 @@ html {
      background-position: center;
      margin: -100px 0 0 -100px;
  }
-@media(max-width: 570px) {
-	.menu-nav li {
-		margin: 0% 2%;
-		font-size: 11px;
-	}
-}
+
 
 
 /*gallary*/
-
-
+.bg-purple-1{
+  background-color: #703c8e;
+}
+.bg-purple-2{
+  background-color: #dbb2ff;
+}
+.bg-purple-3{
+  background-color: #bb86fc;
+}
+.bg-purple-4{
+  background-color: #a65beb;
+}
+.bg-purple-5{
+  background-color: #9d3dd4;
+}
 .img-h800 {
   height: 800px;
   width: 100%;
 }
-
 .img-h200{
-  height: 200px;
+  height: 189px;
   width: 100%;
+}
+.gallary-span{
+    position: absolute;
+    top: 50%;
+    right: 40%;
+    left: auto;
+    color: #ffff;
+    line-height: 1.7;
+    text-align: center;
+    text-transform: uppercase;
+    border-style: double;
+    padding: 5px 0px;
+    width: 180px;
+}
+
+/*modal*/
+.close-modal {
+    position: absolute;
+    cursor: pointer;
+    top: 5px;
+    right: 15px;
+    opacity: 1;
+    /* backface-visibility: hidden; */
+    transition: opacity $speed $easing, transform $speed $easing;
+    transition-delay: $delay;
+}
+
+.carousel-inner {
+    height: 100%;
+}
+
+.modal-dialog {
+    max-width: 100% !important;
+}
+
+svg {
+    width: 1.75em;
+    height: 1.75em;
+}
+
+@media(max-width: 570px) {
+  .menu-nav li {
+    margin: 0% 2%;
+    font-size: 11px;
+  }
+  .gallary-span{
+    position: absolute;
+    top: 45%;
+    right: 26%;
+    left: auto;
+    color: #ffff;
+    line-height: 1.7;
+    text-align: center;
+    font-size: 10px;
+    text-transform: uppercase;
+    border-style: double;
+    padding: 2px 0px;
+    width: 90px;
+  } 
+  .img-h800 {
+    height: 400px;
+    width: 100%;
+  }
+  .img-h200{
+    height: 89px;
+    width: 100%;
+  }
+
+}
+
+@media only screen and (min-width:571px) and (max-width:768px) {
+  
+  .gallary-span {
+    position: absolute;
+    top: 50%;
+    right: 35%;
+    left: auto;
+    color: #ffff;
+    line-height: 1.7;
+    text-align: center;
+    font-size: 10px;
+    text-transform: uppercase;
+    border-style: double;
+    padding: 3px 0px;
+    width: 100px;
+  } 
+  .img-h800 {
+    height: 600px;
+    width: 100%;
+  }
+  .img-h200{
+    height: 139px;
+    width: 100%;
+  }
+
+}
+
+@media (min-width: 768px){
+.modal-dialog {
+    width: 60%;
+    margin: 5% auto;
+}
+
 }

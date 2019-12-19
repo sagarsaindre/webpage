@@ -105,11 +105,26 @@ html {
      background-position: center;
      margin: -100px 0 0 -100px;
  }
+
+ .services-box {
+  width: 100%;
+  height: 400px;
+  padding: 23% 23%;
+ }
+ .grey {
+  background: #4b4b4d;
+ }
+ .light-grey {
+  background: #e6e7e9;
+ }
 @media(max-width: 570px) {
 	.menu-nav li {
 		margin: 0% 2%;
 		font-size: 11px;
 	}
+  .services-box {
+    height: 162px;
+  }
 }
 
 

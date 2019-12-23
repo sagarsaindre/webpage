@@ -1,7 +1,8 @@
 html {
 	scroll-behavior: smooth;
 }
-.container-fluid {
+.mt-5 {
+  margin: 5% 0% 0%;
 }
 .mtb-5 {
 	margin: 5% 0%;
@@ -15,12 +16,14 @@ html {
 .p-b-15{
   padding-bottom: 15px; 
 }
-
 .p-r-0{
   padding-right: 0;
 }
 .m-t-15{
   margin-top: 15px
+}
+.full-width {
+  width: 100%;
 }
 .carousal-wrapper {
 	height: 500px;
